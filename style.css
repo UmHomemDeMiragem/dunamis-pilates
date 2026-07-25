@@ -426,3 +426,23 @@ img { max-width: 100%; height: auto; display: block; }
   color: var(--text-sub);
   font-size: 14px;
 }
+
+@media (max-width: 768px) {
+  .header-location { display: none; }
+  .logo-brand-img { height: 35px; }
+  .header-right { gap: 8px; }
+  .btn-whatsapp-header { padding: 6px 12px; font-size: 10px; }
+  .header-container { padding: 0 15px; }
+
+  .hero-container { padding-top: 60px; }
+  
+  .title-line-1 { font-size: 38px; line-height: 1.1; -webkit-text-stroke: 1px rgba(255, 255, 255, 0.8); }
+  .title-line-2 { font-size: 50px; margin-top: -15px; margin-left: 20px; text-shadow: 0 0 15px var(--primary-teal-glow); }
+  .title-line-3 { font-size: 30px; margin-top: -5px; }
+  
+  .hero-badge { margin-bottom: 20px; font-size: 9px; }
+  .hero-subtitle { font-size: 15px; margin-bottom: 20px; border-left: 2px solid var(--primary-teal); padding-left: 15px; }
+  .hero-subtitle em { font-size: 22px; }
+  
+  .art-card { height: 320px; }
+}
